@@ -10,13 +10,13 @@ divEl.appendChild(tableEl);
 function Store(locationName, miniCustom, maxCustom, avarCookies) {
 
   this.locationName = locationName,
-    this.miniCustom = miniCustom,
-    this.maxCustom = maxCustom,
-    this.avarCookies = avarCookies,
-    this.customerPerHour = [],
-    this.totalCookiesPerHour = 0,
-    this.salesCookiesPerHour = [],
-    allstore.push(this);
+  this.miniCustom = miniCustom,
+  this.maxCustom = maxCustom,
+  this.avarCookies = avarCookies,
+  this.customerPerHour = [],
+  this.totalCookiesPerHour = 0,
+  this.salesCookiesPerHour = [],
+  allstore.push(this);
 }
 
 Store.prototype.randonCustomerPerHour = function () {
@@ -24,7 +24,7 @@ Store.prototype.randonCustomerPerHour = function () {
     this.customerPerHour.push(Math.floor(Math.random() * (this.maxCustom - this.miniCustom + 1) + this.miniCustom));
 
   }
-}
+};
 
 Store.prototype.cookiesPerHour = function () {
   for (let i = 0; i < workHour.length; i++) {
@@ -33,7 +33,7 @@ Store.prototype.cookiesPerHour = function () {
 
   }
 
-}
+};
 Store.prototype.render = function () {
   let tableRow = document.createElement('tr');
   tableEl.appendChild(tableRow);
@@ -52,7 +52,7 @@ Store.prototype.render = function () {
   tableRow.appendChild(tableD);
   tableD.textContent = this.totalCookiesPerHour;
 
-}
+};
 
 
 
