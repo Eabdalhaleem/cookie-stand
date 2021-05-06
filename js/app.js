@@ -78,9 +78,9 @@ function headerRow() {
   tableRow.appendChild(tableHead);
   tableHead.textContent = 'Daily Location Total';
 }
-
+let tableRow = document.createElement('tr');
 function footerRow() {
-  let tableRow = document.createElement('tr');
+
   tableEl.appendChild(tableRow);
   let tableData = document.createElement('td');
   tableRow.appendChild(tableData);
@@ -128,6 +128,31 @@ Lima.cookiesPerHour();
 Lima.render();
 footerRow();
 
+
+// lab09
+
+// eslint-disable-next-line no-unused-vars
+let cookieForm=document.getElementById('cookieForm');
+
+// eslint-disable-next-line no-undef
+cookieForm.addEventListener('submit',addStore);
+// eslint-disable-next-line no-unused-vars
+function addStore(event){
+  event.preventDefault ();
+  let locationName =event.target.locationName.value;
+  let miniCustom =event.target.miniCustom.value;
+  let maxCustom =event.target.maxCustom.value;
+  let avarCookies =event.target.avarCookies.value;
+
+  // eslint-disable-next-line no-undef
+  let newLocation =new Store (locationName,miniCustom,maxCustom,avarCookies);
+  newLocation.randonCustomerPerHour();
+  newLocation.cookiesPerHour();
+  newLocation.render();
+  tableRow.innerHTML='';
+  footerRow();
+  // console.log(locationName);
+}
 
 
 
