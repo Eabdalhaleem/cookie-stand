@@ -1,3 +1,19 @@
-li{
-    
+header{
+background-image: url(https://i.pinimg.com/originals/8a/d1/a9/8ad1a979583c6265f1e96636b6dbaf8d.jpg);
 }
+
+#salmon {
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    left: 150px;
+    top: 135px;
+    border-radius: 50px 50px 50px 50px / 80px 80px 55px 55px;
+    background: #fff;
+    transform-origin: 50% 90%;
+    animation: 2.5s  ease-in-out infinite;
+  }
+
+
+ 
+
