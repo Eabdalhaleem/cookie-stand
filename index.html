@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat&display=swap">
     <style>
@@ -14,7 +15,8 @@
 
         }
 
-        nav ul li {
+        
+        /* nav ul li {
             display: inline;
         }
 
@@ -24,16 +26,13 @@
 
         header {
             text-align: center;
-        }
+        } */
     </style>
 </head>
 
 <body>
     <header>
-
-    </header>
-    <main>
-        <nav>
+        <nav class="link">
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -41,30 +40,38 @@
                 <li>
                     <a href="sales.html">sales</a>
                 </li>
+                <li>
+                    <a href="contactus.html">contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <nav class='maps'>
+            <ul>
                 <li><a href="https://goo.gl/maps/3igm2B6ZwQBFBDjN7">Seattle</a></li>
                 <li><a href="https://goo.gl/maps/uBe7Z1DuevjrceJL9">Tokyo</a></li>
                 <li><a href="https://goo.gl/maps/K7Sa9s6igMwkJmpr7">Dubai</a></li>
                 <li><a href="https://goo.gl/maps/fpeAcVMYobcSnSY18">Paris</a></li>
                 <li><a href="https://goo.gl/maps/RUkuPLfKiLzksxAy6">Lima</a></li>
-                <nav>
-                    <ul>
-                        <li>Sunday: 6:00am - 7:00pm</li>
-                        <li>Monday: 6:00am - 7:00pm</li>
-                        <li>Tuesday: 6:00am - 7:00pm</li>
-                        <li>Wednesday: 6:00am - 7:00pm</li>
-                        <li>Thursday: 6:00am - 7:00pm</li>
-                        <li>Friday: CLOSED</li>
-                        <li>Saturday: 6:00am - 7:00pm</li>
-                    </ul>
-                </nav>
 
-                <img id="salmon"
-                    src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png"
-                    alt="salm">
 
             </ul>
         </nav>
 
+        <nav class="date">
+            <ul>
+                <li>Sunday: 6:00am - 7:00pm</li>
+                <li>Monday: 6:00am - 7:00pm</li>
+                <li>Tuesday: 6:00am - 7:00pm</li>
+                <li>Wednesday: 6:00am - 7:00pm</li>
+                <li>Thursday: 6:00am - 7:00pm</li>
+                <li>Friday: CLOSED</li>
+                <li>Saturday: 6:00am - 7:00pm</li>
+            </ul>
+        </nav>
+        <img id="salmon" src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png"
+            alt="salm">
     </main>
     <footer></footer>
 </body>

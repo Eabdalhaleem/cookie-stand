@@ -1,19 +1,52 @@
+
+body {
+ 
+
+  }
+}
 header{
-background-image: url(https://i.pinimg.com/originals/8a/d1/a9/8ad1a979583c6265f1e96636b6dbaf8d.jpg);
+  background-image: url(https://i.pinimg.com/originals/8a/d1/a9/8ad1a979583c6265f1e96636b6dbaf8d.jpg);
 }
 
-#salmon {
-    position: absolute;
-    width: 100px;
-    height: 130px;
-    left: 150px;
-    top: 135px;
-    border-radius: 50px 50px 50px 50px / 80px 80px 55px 55px;
-    background: #fff;
-    transform-origin: 50% 90%;
-    animation: 2.5s  ease-in-out infinite;
+
+
+header nav ul li a {
+  text-align: center;
+  
+}
+
+.link{
+  text-align: center;
+  margin-top: 10px;
+}
+.maps {
+  text-align: left;
+  position: static;
+  border: 3px solid #174a96;
+  margin-top: 20px;
+}
+
+.date{
+  border: 1px solid #39034e;
+  text-align: center;
+  margin-top: 0%;
+  
+}
+ #salmon {
+  border: 1px solid #73AD21;
+  margin-top: 0px;
+  margin-bottom: 70px;
+  margin-right: 30px;
+  
+}
+main{
+  background-image: url(../img/chinook.jpg);
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 20px;
   }
 
+}
 
  
 
