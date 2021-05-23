@@ -1,4 +1,4 @@
-
+main {
   background-image: url(https://i.pinimg.com/originals/8a/d1/a9/8ad1a979583c6265f1e96636b6dbaf8d.jpg);
   background-repeat:space;
   width: 100%;
@@ -7,7 +7,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+}
 }
 header h1{
   font-size: xx-large;
