@@ -62,6 +62,7 @@ let Dubai = new Store('Dubai', 11, 38, 3.7);
 let Paris = new Store('Paris', 20, 38, 2.3);
 let Lima = new Store('Lima', 2, 16, 4.6);
 
+// 
 function headerRow() {
   let tableRow = document.createElement('tr');
   tableEl.appendChild(tableRow);
