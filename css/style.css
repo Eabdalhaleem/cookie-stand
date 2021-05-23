@@ -1,52 +1,125 @@
-
-
- 
-
-
-
-header{
+main{
   background-image: url(https://i.pinimg.com/originals/8a/d1/a9/8ad1a979583c6265f1e96636b6dbaf8d.jpg);
+  background-repeat:space;
+  width: 100%;
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+header h1{
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 900;
+  color: hotpink;
+}
+header{
+  background-color: rgba(0, 255, 255, 0.342);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  width: 100%;
+  height: 100%;
+}
+ nav ul li {
+  display: inline-block;
+  padding: 0px 32px;
+ 
+}
+nav ul {
+  text-align: center;
+  padding: 32px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: x-large;
+
+}
+/* unvisited link */
+header a:link {
+  color: hotpink;
 }
 
-
-
-header nav ul li a {
-  text-align: center;
-  
+/* visited link */
+header a:visited {
+  color: rgb(55, 150, 55);
 }
 
-.link{
+/* mouse over link */
+header a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+header a:active {
+  color: blue;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white
+}
+
+main h2{
   text-align: center;
-  margin-top: 10px;
+  font-size: x-large;
+  color: hotpink;
+  font-weight: 600;
+  background-color: #4CAF50;
+  display: inline-block;
+}
+.header2{
+  text-align: center;
+}
+ #tableContainer table{
+  margin-left: auto;
+  margin-right: auto;
 }
 .maps {
-  text-align: left;
-  position: static;
-  border: 3px solid #174a96;
-  margin-top: 20px;
+  background-color: #4CAF50;
+
+}
+/* unvisited link */
+main a:link {
+  color: orange;
 }
 
-.date{
-  border: 1px solid #39034e;
+/* visited link */
+main a:visited {
+  color: orange;
+}
+
+/* mouse over link */
+main a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+main a:active {
+  color: blue;
+}
+header img{
+width: 250px;
+float: left;
+}
+.specialItems{
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+figure {
+margin:0;
+padding-top: 15px;
+padding-left: 15px;
+padding-right: 15px;
+}
+img{
+  max-width: 100%;
+}
+p {
+  background-color: #4CAF50;
+  color: white;
+  font-size: large;
   text-align: center;
-  margin-top: 0%;
-  
 }
- #salmon {
-  border: 1px solid #73AD21;
-  margin-top: 0px;
-  margin-bottom: 70px;
-  margin-right: 30px;
-  
-}
-main{
-  background-image: url(../img/chinook.jpg);
-  background-repeat: no-repeat;
-  width: 10px;
-  height: 20px;
-  }
-
-
-
- 
-
